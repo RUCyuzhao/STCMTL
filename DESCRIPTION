@@ -1,0 +1,28 @@
+Package: STCMTL
+Title: Multi Task Clustering Method
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yuzhao",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "2016201698@ruc.edu.cn",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A novel task clustering approach, which can simultaneously perform feature selection and learn an overlapping structure among tasks.
+License: usethis::use_gpl3_license("Bert")
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: SOUP,glmnet,MASS,limSolve,ncvreg,e1071,lassoshooting,fclust,metafuse,readxl
+Depends: 
+    R (>= 3.2),
+    SOUP,
+    glmnet,
+    MASS,
+    limSolve,
+    ncvreg,
+    e1071,
+    lassoshooting,
+    fclust,
+    metafuse,
+    readxl
